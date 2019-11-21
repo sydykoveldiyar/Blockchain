@@ -73,6 +73,7 @@ namespace Data
             {
                 hex += string.Format("{0:x2}", x);
             }
+            hashString.Dispose();
             return hex;
         }
         public override string ToString()

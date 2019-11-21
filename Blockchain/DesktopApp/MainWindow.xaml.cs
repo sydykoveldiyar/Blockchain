@@ -41,6 +41,10 @@ namespace DesktopApp
             lbBlock.Items.Clear();
 
             _chain.Add(tbData.Text, tbUser.Text);
+            if (_chain.IsSafe() == false)
+            {
+                throw new Exception("Blockhain was hacked");
+            }
             foreach (var block in _chain.Blocks)
             {
                 lbBlock.Items.Add(block);

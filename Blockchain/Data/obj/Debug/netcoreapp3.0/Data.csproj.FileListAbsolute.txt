@@ -14,3 +14,5 @@ C:\Projects\.NET\Blockchain\Blockchain\Data\obj\Debug\netcoreapp3.0\Data.Assembl
 C:\Projects\.NET\Blockchain\Blockchain\Data\obj\Debug\netcoreapp3.0\Data.AssemblyInfo.cs
 C:\Projects\.NET\Blockchain\Blockchain\Data\obj\Debug\netcoreapp3.0\Data.dll
 C:\Projects\.NET\Blockchain\Blockchain\Data\obj\Debug\netcoreapp3.0\Data.pdb
+C:\Projects\.NET\Blockchain\Blockchain\Data\bin\Debug\netcoreapp3.0\Data.runtimeconfig.json
+C:\Projects\.NET\Blockchain\Blockchain\Data\bin\Debug\netcoreapp3.0\Data.runtimeconfig.dev.json
