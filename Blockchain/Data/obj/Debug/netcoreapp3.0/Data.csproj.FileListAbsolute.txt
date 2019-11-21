@@ -1,0 +1,8 @@
+C:\Projects\.NET\Blockchain\Data\bin\Debug\netcoreapp3.0\Data.deps.json
+C:\Projects\.NET\Blockchain\Data\bin\Debug\netcoreapp3.0\Data.dll
+C:\Projects\.NET\Blockchain\Data\bin\Debug\netcoreapp3.0\Data.pdb
+C:\Projects\.NET\Blockchain\Data\obj\Debug\netcoreapp3.0\Data.csprojAssemblyReference.cache
+C:\Projects\.NET\Blockchain\Data\obj\Debug\netcoreapp3.0\Data.AssemblyInfoInputs.cache
+C:\Projects\.NET\Blockchain\Data\obj\Debug\netcoreapp3.0\Data.AssemblyInfo.cs
+C:\Projects\.NET\Blockchain\Data\obj\Debug\netcoreapp3.0\Data.dll
+C:\Projects\.NET\Blockchain\Data\obj\Debug\netcoreapp3.0\Data.pdb
