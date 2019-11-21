@@ -1,0 +1,25 @@
+﻿<Window x:Name="WIndow" x:Class="DesktopApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesktopApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="142*"/>
+            <ColumnDefinition Width="464*"/>
+            <ColumnDefinition Width="117*"/>
+            <ColumnDefinition Width="77*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label" Content="Blockchain Application" HorizontalAlignment="Left" Margin="32,21,0,0" VerticalAlignment="Top" Width="368" Height="53" FontSize="36" Grid.ColumnSpan="2"/>
+        <ListBox x:Name="lbBlock" Margin="0,79,0,85" IsSynchronizedWithCurrentItem="False" Grid.ColumnSpan="4"/>
+        <Button x:Name="btAdd" Content="Add Block" HorizontalAlignment="Left" Margin="255,373,0,0" VerticalAlignment="Top" Width="139" Height="41" Grid.Column="1" Click="btAdd_Click"/>
+        <TextBox x:Name="tbData" HorizontalAlignment="Left" Margin="8,362,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Height="30" FontSize="16" Grid.Column="1"/>
+        <Label x:Name="dataLabel" Content="Data:" HorizontalAlignment="Left" Margin="104,362,0,0" VerticalAlignment="Top" Width="38" Height="26"/>
+        <Label x:Name="label1" Content="User:" HorizontalAlignment="Left" Margin="104,397,0,0" VerticalAlignment="Top" Height="26" Width="36"/>
+        <TextBox x:Name="tbUser" HorizontalAlignment="Left" Margin="8,397,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" RenderTransformOrigin="0.36,-0.254" Height="27" Grid.Column="1"/>
+
+    </Grid>
+</Window>

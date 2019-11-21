@@ -75,5 +75,10 @@ namespace Data
             }
             return hex;
         }
+        public override string ToString()
+        {
+            string result = "Previous Hash: " + PreviousHash + "\n" + "Hash: " + Hash;
+            return result;
+        }
     }
 }
